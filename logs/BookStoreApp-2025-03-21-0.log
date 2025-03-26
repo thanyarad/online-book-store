@@ -1,0 +1,218 @@
+2025-03-21T18:03:01.337+05:30  INFO 33760 --- [BookStoreApp] [main] c.d.B.BookStoreAppApplication            : Starting BookStoreAppApplication using Java 21.0.2 with PID 33760 (C:\Users\Swast\eclipse-workspace\BookStoreApp\target\classes started by Swast in C:\Users\Swast\eclipse-workspace\BookStoreApp)
+2025-03-21T18:03:01.339+05:30  INFO 33760 --- [BookStoreApp] [main] c.d.B.BookStoreAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-03-21T18:03:01.860+05:30  INFO 33760 --- [BookStoreApp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-21T18:03:01.911+05:30  INFO 33760 --- [BookStoreApp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interface.
+2025-03-21T18:03:02.305+05:30  INFO 33760 --- [BookStoreApp] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2025-03-21T18:03:02.319+05:30  INFO 33760 --- [BookStoreApp] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-21T18:03:02.320+05:30  INFO 33760 --- [BookStoreApp] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-21T18:03:02.364+05:30  INFO 33760 --- [BookStoreApp] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-21T18:03:02.364+05:30  INFO 33760 --- [BookStoreApp] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 964 ms
+2025-03-21T18:03:02.502+05:30  INFO 33760 --- [BookStoreApp] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-21T18:03:02.543+05:30  INFO 33760 --- [BookStoreApp] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-21T18:03:02.575+05:30  INFO 33760 --- [BookStoreApp] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-21T18:03:02.792+05:30  INFO 33760 --- [BookStoreApp] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-21T18:03:02.822+05:30  INFO 33760 --- [BookStoreApp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-21T18:03:03.116+05:30  INFO 33760 --- [BookStoreApp] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7b598d05
+2025-03-21T18:03:03.118+05:30  INFO 33760 --- [BookStoreApp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-21T18:03:03.163+05:30  WARN 33760 --- [BookStoreApp] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-21T18:03:03.177+05:30  INFO 33760 --- [BookStoreApp] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.36
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-21T18:03:03.830+05:30  INFO 33760 --- [BookStoreApp] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-21T18:03:03.880+05:30  INFO 33760 --- [BookStoreApp] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-21T18:03:04.110+05:30  WARN 33760 --- [BookStoreApp] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-21T18:03:04.381+05:30  INFO 33760 --- [BookStoreApp] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
+2025-03-21T18:03:04.389+05:30  INFO 33760 --- [BookStoreApp] [main] c.d.B.BookStoreAppApplication            : Started BookStoreAppApplication in 3.392 seconds (process running for 3.928)
+2025-03-21T18:03:28.016+05:30  INFO 33760 --- [BookStoreApp] [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-03-21T18:03:28.023+05:30  INFO 33760 --- [BookStoreApp] [RMI TCP Connection(2)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-21T18:03:28.043+05:30  INFO 33760 --- [BookStoreApp] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-21T18:03:28.050+05:30  INFO 33760 --- [BookStoreApp] [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-21T18:03:28.053+05:30  INFO 33760 --- [BookStoreApp] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-21T18:03:28.077+05:30  INFO 33760 --- [BookStoreApp] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-21T18:03:43.390+05:30  INFO 14560 --- [BookStoreApp] [main] c.d.B.BookStoreAppApplication            : Starting BookStoreAppApplication using Java 21.0.2 with PID 14560 (C:\Users\Swast\eclipse-workspace\BookStoreApp\target\classes started by Swast in C:\Users\Swast\eclipse-workspace\BookStoreApp)
+2025-03-21T18:03:43.397+05:30  INFO 14560 --- [BookStoreApp] [main] c.d.B.BookStoreAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-03-21T18:03:43.897+05:30  INFO 14560 --- [BookStoreApp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-21T18:03:43.943+05:30  INFO 14560 --- [BookStoreApp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interface.
+2025-03-21T18:03:44.319+05:30  INFO 14560 --- [BookStoreApp] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2025-03-21T18:03:44.334+05:30  INFO 14560 --- [BookStoreApp] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-21T18:03:44.334+05:30  INFO 14560 --- [BookStoreApp] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-21T18:03:44.383+05:30  INFO 14560 --- [BookStoreApp] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-21T18:03:44.383+05:30  INFO 14560 --- [BookStoreApp] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 938 ms
+2025-03-21T18:03:44.498+05:30  INFO 14560 --- [BookStoreApp] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-21T18:03:44.538+05:30  INFO 14560 --- [BookStoreApp] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-21T18:03:44.562+05:30  INFO 14560 --- [BookStoreApp] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-21T18:03:44.798+05:30  INFO 14560 --- [BookStoreApp] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-21T18:03:44.827+05:30  INFO 14560 --- [BookStoreApp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-21T18:03:45.095+05:30  INFO 14560 --- [BookStoreApp] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@38cf3ae1
+2025-03-21T18:03:45.097+05:30  INFO 14560 --- [BookStoreApp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-21T18:03:45.149+05:30  WARN 14560 --- [BookStoreApp] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-21T18:03:45.163+05:30  INFO 14560 --- [BookStoreApp] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.36
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-21T18:03:45.787+05:30  INFO 14560 --- [BookStoreApp] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-21T18:03:45.835+05:30  INFO 14560 --- [BookStoreApp] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-21T18:03:46.049+05:30  WARN 14560 --- [BookStoreApp] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-21T18:03:46.367+05:30  INFO 14560 --- [BookStoreApp] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
+2025-03-21T18:03:46.375+05:30  INFO 14560 --- [BookStoreApp] [main] c.d.B.BookStoreAppApplication            : Started BookStoreAppApplication in 3.341 seconds (process running for 3.861)
+2025-03-21T18:04:59.944+05:30  INFO 14560 --- [BookStoreApp] [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-21T18:04:59.945+05:30  INFO 14560 --- [BookStoreApp] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-21T18:04:59.948+05:30  INFO 14560 --- [BookStoreApp] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-03-21T18:04:59.983+05:30  INFO 14560 --- [BookStoreApp] [http-nio-8082-exec-1] c.d.B.controller.BookController          : Request to fetch book with ID: 5
+2025-03-21T18:05:00.071+05:30  INFO 14560 --- [BookStoreApp] [http-nio-8082-exec-1] c.d.B.controller.BookController          : Book fetched successfully: Book [id=5, title=Romeo and Juliet, author=William Shakespheare, price=430.00, publishedDate=2008-10-02]
+2025-03-21T18:05:08.822+05:30  INFO 14560 --- [BookStoreApp] [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-03-21T18:05:08.827+05:30  INFO 14560 --- [BookStoreApp] [RMI TCP Connection(5)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-21T18:05:08.846+05:30  INFO 14560 --- [BookStoreApp] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-21T18:05:08.854+05:30  INFO 14560 --- [BookStoreApp] [RMI TCP Connection(5)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-21T18:05:08.858+05:30  INFO 14560 --- [BookStoreApp] [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-21T18:05:08.879+05:30  INFO 14560 --- [BookStoreApp] [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-21T18:05:20.494+05:30  INFO 32692 --- [BookStoreApp] [main] c.d.B.BookStoreAppApplication            : Starting BookStoreAppApplication using Java 21.0.2 with PID 32692 (C:\Users\Swast\eclipse-workspace\BookStoreApp\target\classes started by Swast in C:\Users\Swast\eclipse-workspace\BookStoreApp)
+2025-03-21T18:05:20.505+05:30  INFO 32692 --- [BookStoreApp] [main] c.d.B.BookStoreAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-03-21T18:05:21.044+05:30  INFO 32692 --- [BookStoreApp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-21T18:05:21.089+05:30  INFO 32692 --- [BookStoreApp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interface.
+2025-03-21T18:05:21.509+05:30  INFO 32692 --- [BookStoreApp] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2025-03-21T18:05:21.522+05:30  INFO 32692 --- [BookStoreApp] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-21T18:05:21.522+05:30  INFO 32692 --- [BookStoreApp] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-21T18:05:21.566+05:30  INFO 32692 --- [BookStoreApp] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-21T18:05:21.566+05:30  INFO 32692 --- [BookStoreApp] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1002 ms
+2025-03-21T18:05:21.705+05:30  INFO 32692 --- [BookStoreApp] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-21T18:05:21.740+05:30  INFO 32692 --- [BookStoreApp] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-21T18:05:21.766+05:30  INFO 32692 --- [BookStoreApp] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-21T18:05:22.007+05:30  INFO 32692 --- [BookStoreApp] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-21T18:05:22.034+05:30  INFO 32692 --- [BookStoreApp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-21T18:05:22.315+05:30  INFO 32692 --- [BookStoreApp] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@269308cc
+2025-03-21T18:05:22.317+05:30  INFO 32692 --- [BookStoreApp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-21T18:05:22.371+05:30  WARN 32692 --- [BookStoreApp] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-21T18:05:22.387+05:30  INFO 32692 --- [BookStoreApp] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.36
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-21T18:05:23.059+05:30  INFO 32692 --- [BookStoreApp] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-21T18:05:23.098+05:30  INFO 32692 --- [BookStoreApp] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-21T18:05:23.285+05:30  WARN 32692 --- [BookStoreApp] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-21T18:05:23.559+05:30  INFO 32692 --- [BookStoreApp] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
+2025-03-21T18:05:23.568+05:30  INFO 32692 --- [BookStoreApp] [main] c.d.B.BookStoreAppApplication            : Started BookStoreAppApplication in 3.416 seconds (process running for 3.958)
+2025-03-21T18:12:13.917+05:30  INFO 32692 --- [BookStoreApp] [http-nio-8082-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-21T18:12:13.917+05:30  INFO 32692 --- [BookStoreApp] [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-21T18:12:13.918+05:30  INFO 32692 --- [BookStoreApp] [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-21T18:12:13.954+05:30  INFO 32692 --- [BookStoreApp] [http-nio-8082-exec-2] c.d.B.controller.BookController          : Request to fetch book with ID: 5
+2025-03-21T18:12:14.013+05:30  INFO 32692 --- [BookStoreApp] [http-nio-8082-exec-2] c.d.B.controller.BookController          : Book fetched successfully: Book [id=5, title=Romeo and Juliet, author=William Shakespheare, price=430.00, publishedDate=2008-10-02]
+2025-03-21T18:12:38.319+05:30  INFO 32692 --- [BookStoreApp] [http-nio-8082-exec-3] c.d.B.controller.BookController          : Request to fetch all books
+2025-03-21T18:12:38.320+05:30  INFO 32692 --- [BookStoreApp] [http-nio-8082-exec-3] c.d.B.controller.BookController          : Book fetched successfully
+2025-03-21T18:13:05.995+05:30  INFO 27984 --- [BookStoreApp] [main] c.d.B.BookStoreAppApplication            : Starting BookStoreAppApplication using Java 21.0.2 with PID 27984 (C:\Users\Swast\eclipse-workspace\BookStoreApp\target\classes started by Swast in C:\Users\Swast\eclipse-workspace\BookStoreApp)
+2025-03-21T18:13:06.002+05:30  INFO 27984 --- [BookStoreApp] [main] c.d.B.BookStoreAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-03-21T18:13:06.692+05:30  INFO 27984 --- [BookStoreApp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-21T18:13:06.746+05:30  INFO 27984 --- [BookStoreApp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interface.
+2025-03-21T18:13:07.227+05:30  INFO 27984 --- [BookStoreApp] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2025-03-21T18:13:07.244+05:30  INFO 27984 --- [BookStoreApp] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-21T18:13:07.244+05:30  INFO 27984 --- [BookStoreApp] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-21T18:13:07.300+05:30  INFO 27984 --- [BookStoreApp] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-21T18:13:07.300+05:30  INFO 27984 --- [BookStoreApp] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1241 ms
+2025-03-21T18:13:07.512+05:30  INFO 27984 --- [BookStoreApp] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-21T18:13:07.585+05:30  INFO 27984 --- [BookStoreApp] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-21T18:13:07.630+05:30  INFO 27984 --- [BookStoreApp] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-21T18:13:07.892+05:30  INFO 27984 --- [BookStoreApp] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-21T18:13:07.919+05:30  INFO 27984 --- [BookStoreApp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-21T18:13:08.315+05:30  INFO 27984 --- [BookStoreApp] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1242d96b
+2025-03-21T18:13:08.317+05:30  INFO 27984 --- [BookStoreApp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-21T18:13:08.373+05:30  WARN 27984 --- [BookStoreApp] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-21T18:13:08.392+05:30  INFO 27984 --- [BookStoreApp] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.36
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-21T18:13:09.242+05:30  INFO 27984 --- [BookStoreApp] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-21T18:13:09.296+05:30  INFO 27984 --- [BookStoreApp] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-21T18:13:09.519+05:30  WARN 27984 --- [BookStoreApp] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-21T18:13:09.824+05:30  WARN 27984 --- [BookStoreApp] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-03-21T18:13:09.826+05:30  INFO 27984 --- [BookStoreApp] [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-21T18:13:09.828+05:30  INFO 27984 --- [BookStoreApp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-21T18:13:09.835+05:30  INFO 27984 --- [BookStoreApp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-21T18:13:09.848+05:30  INFO 27984 --- [BookStoreApp] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-03-21T18:13:09.861+05:30 ERROR 27984 --- [BookStoreApp] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8082 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8082 or configure this application to listen on another port.
+
+2025-03-21T18:13:24.952+05:30  INFO 10072 --- [BookStoreApp] [main] c.d.B.BookStoreAppApplication            : Starting BookStoreAppApplication using Java 21.0.2 with PID 10072 (C:\Users\Swast\eclipse-workspace\BookStoreApp\target\classes started by Swast in C:\Users\Swast\eclipse-workspace\BookStoreApp)
+2025-03-21T18:13:24.959+05:30  INFO 10072 --- [BookStoreApp] [main] c.d.B.BookStoreAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-03-21T18:13:25.464+05:30  INFO 10072 --- [BookStoreApp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-21T18:13:25.513+05:30  INFO 10072 --- [BookStoreApp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interface.
+2025-03-21T18:13:25.929+05:30  INFO 10072 --- [BookStoreApp] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2025-03-21T18:13:25.944+05:30  INFO 10072 --- [BookStoreApp] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-21T18:13:25.945+05:30  INFO 10072 --- [BookStoreApp] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-21T18:13:25.985+05:30  INFO 10072 --- [BookStoreApp] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-21T18:13:25.985+05:30  INFO 10072 --- [BookStoreApp] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 973 ms
+2025-03-21T18:13:26.125+05:30  INFO 10072 --- [BookStoreApp] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-21T18:13:26.167+05:30  INFO 10072 --- [BookStoreApp] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-21T18:13:26.194+05:30  INFO 10072 --- [BookStoreApp] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-21T18:13:26.422+05:30  INFO 10072 --- [BookStoreApp] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-21T18:13:26.442+05:30  INFO 10072 --- [BookStoreApp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-21T18:13:26.715+05:30  INFO 10072 --- [BookStoreApp] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@308a9264
+2025-03-21T18:13:26.718+05:30  INFO 10072 --- [BookStoreApp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-21T18:13:26.788+05:30  WARN 10072 --- [BookStoreApp] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-21T18:13:26.808+05:30  INFO 10072 --- [BookStoreApp] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.36
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-21T18:13:27.549+05:30  INFO 10072 --- [BookStoreApp] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-21T18:13:27.592+05:30  INFO 10072 --- [BookStoreApp] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-21T18:13:27.806+05:30  WARN 10072 --- [BookStoreApp] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-21T18:13:28.100+05:30  WARN 10072 --- [BookStoreApp] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-03-21T18:13:28.103+05:30  INFO 10072 --- [BookStoreApp] [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-21T18:13:28.104+05:30  INFO 10072 --- [BookStoreApp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-21T18:13:28.111+05:30  INFO 10072 --- [BookStoreApp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-21T18:13:28.122+05:30  INFO 10072 --- [BookStoreApp] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-03-21T18:13:28.138+05:30 ERROR 10072 --- [BookStoreApp] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8082 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8082 or configure this application to listen on another port.
+
+2025-03-21T18:13:33.549+05:30  INFO 32692 --- [BookStoreApp] [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-03-21T18:13:33.557+05:30  INFO 32692 --- [BookStoreApp] [RMI TCP Connection(11)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-21T18:13:33.579+05:30  INFO 32692 --- [BookStoreApp] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-21T18:13:33.589+05:30  INFO 32692 --- [BookStoreApp] [RMI TCP Connection(11)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-21T18:13:33.592+05:30  INFO 32692 --- [BookStoreApp] [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-21T18:13:33.602+05:30  INFO 32692 --- [BookStoreApp] [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
